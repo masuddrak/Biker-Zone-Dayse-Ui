@@ -22,8 +22,8 @@
         <div class="navbar bg-base-100 ">
             <div class="flex-1">
                 <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden absolute right-0 top-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 " fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 6h16M4 12h8m-8 6h16" />
@@ -48,12 +48,64 @@
                 </ul>
             </div>
             <div class="">
-                <a class="btn btn-primary">Button</a>
+                <a class="btn btn-warning text-2xl px-4 border-2 hover:bg-transparent">Login</a>
             </div>
         </div>
     </header>
     <main class="container mx-auto px-4">
-
+        <!-- slider -->
+        <section class="my-10">
+            <div class="carousel w-full bg-yellow-500 rounded-md">
+                <div id="slide1" class="carousel-item relative w-full py-10">
+                    <div class="md:flex justify-evenly items-center w-11/12 md:w-10/12 mx-auto gap-12">
+                        <div class="space-y-4">
+                            <h1 class="text-2xl md:text-4xl font-bold opacity-90">Ride-on R15 V4 with Smile</h1>
+                            <p class=" md:text-xl opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Corrupti fuga ipsa sapiente quod
+                                tempora repellat aliquid expedita sequi fugit velit?</p>
+                            <button class="btn btn-neutral md:text-2xl md:px-4 border-2 hover:bg-transparent">By Now</button>
+                        </div>
+                        <img src="./images/slider/bike1.png" alt="">
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="text-2xl">❮</a>
+                        <a href="#slide2" class="text-2xl">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full py-10">
+                    <div class="md:flex justify-evenly items-center w-11/12 md:w-10/12 mx-auto gap-12">
+                        <div class="space-y-4">
+                            <h1 class="text-2xl md:text-4xl font-bold opacity-90">Ride-on R15 V4 with Smile</h1>
+                            <p class=" md:text-xl opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Corrupti fuga ipsa sapiente quod
+                                tempora repellat aliquid expedita sequi fugit velit?</p>
+                            <button class="btn btn-neutral md:text-2xl md:px-4 border-2 hover:bg-transparent">By Now</button>
+                        </div>
+                        <img src="./images/slider/bike2.png" alt="">
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="text-2xl">❮</a>
+                        <a href="#slide3" class="text-2xl">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full py-10">
+                    <div class="md:flex justify-evenly items-center w-11/12 md:w-10/12 mx-auto gap-12">
+                        <div class="space-y-4">
+                            <h1 class="text-2xl md:text-4xl font-bold opacity-90">Ride-on R15 V4 with Smile</h1>
+                            <p class=" md:text-xl opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Corrupti fuga ipsa sapiente quod
+                                tempora repellat aliquid expedita sequi fugit velit?</p>
+                            <button class="btn btn-neutral md:text-2xl md:px-4 border-2 hover:bg-transparent">By Now</button>
+                        </div>
+                        <img src="./images/slider/bike3.png" alt="">
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="text-2xl">❮</a>
+                        <a href="#slide4" class="text-2xl">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
