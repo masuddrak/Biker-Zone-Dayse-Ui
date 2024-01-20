@@ -18,10 +18,10 @@
 </head>
 
 <body>
-    <header class="container mx-auto px-4 relative">
-        <div class="navbar bg-base-100 ">
-            <div class="flex-1">
-                <div class="dropdown">
+    <header class="container mx-auto px-4">
+        <div class="navbar bg-base-100">
+            <div class="flex-1 ">
+                <div class="dropdown ">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 " fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -29,12 +29,12 @@
                                 d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base">
+                    <ul tabindex="0 relative"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] text-center p-2 shadow bg-base-100 rounded-box w-52 text-base">
                         <li><a>Home</a></li>
                         <li><a>Shop</a></li>
                         <li><a>News</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a>Contact us</a></li>
                     </ul>
                 </div>
                 <a class="text-xl font-semibold md:text-6xl md:font-bold">Biker Zone</a>
@@ -56,17 +56,17 @@
         <!-- slider -->
         <section class="my-10">
             <div class="carousel w-full bg-yellow-500 rounded-md">
-                <div id="slide1" class="carousel-item relative w-full py-10">
+                <div id="slide1" class="carousel-item relative w-full  py-10">
                     <div class="md:flex justify-evenly items-center w-11/12 md:w-10/12 mx-auto gap-12">
                         <div class="space-y-4">
-                            <h1 class="text-2xl md:text-5xl font-bold opacity-90">Ride-on R15 V4 with Smile</h1>
+                            <h1 class="text-2xl md:text-3xl font-bold opacity-90">Ride-on R15 V4 with Smile</h1>
                             <p class=" md:text-xl opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Corrupti fuga ipsa sapiente quod
                                 tempora repellat aliquid expedita sequi fugit velit?</p>
                             <button class="btn btn-neutral md:text-2xl md:px-4 border-2 hover:bg-transparent">By
                                 Now</button>
                         </div>
-                        <img src="./images/slider/bike1.png" alt="">
+                        <img class="md:w-[50%]" src="./images/slider/bike1.png" alt="">
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" class="text-2xl">❮</a>
@@ -112,7 +112,7 @@
         <section>
             <!-- feture -->
             <h1 class="text-center text-4xl font-bold">Fetured Bikes In This Year</h1>
-            <div class="grid md:grid md:grid-cols-3 items-center md:gap-20 mt-4">
+            <div class="grid md:grid md:grid-cols-3 items-center justify-center md:gap-20 mt-4">
                 <img src="./images/slider/bike3.png" alt="">
                 <img src="./images/slider/bike2.png" alt="">
                 <img src="./images/slider/bike1.png" alt="">
@@ -123,33 +123,33 @@
             <h1 class="text-center text-4xl font-bold">Latest News</h1>
             <div class="grid md:grid md:grid-cols-3 items-center gap-10 mt-4">
                 <div class="card glass w-full">
-                    <figure><img src="./images/others/latest1.png"
-                            alt="car!" /></figure>
+                    <figure><img src="./images/others/latest1.png" alt="car!" /></figure>
                     <div class="card-body ">
                         <h2 class="card-title">Ducati XDIAVEL S-73</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
                         <div class="card-actions">
                             <button class="btn btn-warning  px-4 border-2 hover:bg-transparent">Shop Now</button>
                         </div>
                     </div>
                 </div>
                 <div class="card glass">
-                    <figure><img src="./images/others/latest1.png"
-                            alt="car!" /></figure>
+                    <figure><img src="./images/others/latest1.png" alt="car!" /></figure>
                     <div class="card-body ">
                         <h2 class="card-title">Ducati XDIAVEL S-73</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
                         <div class="card-actions">
                             <button class="btn btn-warning  px-4 border-2 hover:bg-transparent">Shop Now</button>
                         </div>
                     </div>
                 </div>
                 <div class="card glass">
-                    <figure><img src="./images/others/latest1.png"
-                            alt="car!" /></figure>
+                    <figure><img src="./images/others/latest1.png" alt="car!" /></figure>
                     <div class="card-body ">
                         <h2 class="card-title">Ducati XDIAVEL S-73</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
                         <div class="card-actions">
                             <button class="btn btn-warning  px-4 border-2 hover:bg-transparent">Shop Now</button>
                         </div>
@@ -158,6 +158,49 @@
             </div>
         </section>
     </main>
+    <!-- footer -->
+    <footer class="bg-base-200">
+        <div class="container mx-auto px-4">
+            <div class="footer p-10  text-base-content md:flex justify-between">
+                <nav>
+                    <header class="footer-title">Services</header>
+                    <a class="link link-hover">Branding</a>
+                    <a class="link link-hover">Design</a>
+                    <a class="link link-hover">Marketing</a>
+                    <a class="link link-hover">Advertisement</a>
+                </nav>
+                <nav>
+                    <header class="footer-title">Company</header>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
+                </nav>
+                <nav>
+                    <header class="footer-title">Legal</header>
+                    <a class="link link-hover">Terms of use</a>
+                    <a class="link link-hover">Privacy policy</a>
+                    <a class="link link-hover">Cookie policy</a>
+                </nav>
+                <form>
+                    <header class="footer-title">Newsletter</header>
+                    <fieldset class="form-control w-[50%]">
+                        <label class="label">
+                            <span class="label-text">Enter your email address</span>
+                        </label>
+                        <div class="join">
+                            <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
+                            <button class="btn btn-primary join-item">Subscribe</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <hr class="border-t-[#25252534]">
+            <p class="text-center py-3">Copyright &copy; 2024 | Masud Rana.
+
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
